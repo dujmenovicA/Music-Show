@@ -1,0 +1,352 @@
+body {
+    background-color: #e0e0e0;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#hero-right {
+    background-image: url(./IMG/Group_1/Right_column_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: max-content;
+
+}
+
+#hero-left {
+    background-image: url(./IMG/Group_1/Left_column_background.png);
+    background-repeat: no-repeat;
+    height: 820px;
+    background-size: contain;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #9913e1;
+    font-weight: bold;
+    padding-right: 40px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+
+.custom-black {
+    color: white;
+    background-color: black;
+    transform: rotate(-6deg);
+    max-width: 420px;
+}
+
+.custom-pink {
+    color: white;
+    background-color: #9913e1;
+    transform: rotate(-3deg);
+    max-width: 350px;
+}
+
+span.span-pink {
+    color: #9913e1;
+    font-weight: bold;
+}
+
+.arrow-down {
+    position: relative;
+    bottom: 45px;
+    left: 20px;
+}
+
+.navbar-collapse {
+    position: absolute;
+    top: 150px;
+    background-color: #575757a9;
+    width: 100%;
+}
+
+.pink-background {
+    background-color: #9900cc;
+}
+
+.stroke-custom {
+    max-width: 600px;
+    max-height: 400px;
+    position: absolute;
+    bottom: -100px;
+    left: -150px;
+    z-index: 0;
+}
+
+.custom-position {
+    z-index: 1;
+}
+
+.white-color {
+    color: white;
+}
+
+.slide-section {
+    background-image: url(./IMG/Group_2/Paper\ Tear.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+    z-index: 1;
+    position: relative;
+}
+
+.slide-section .custom-pink {
+    transform: rotate(3deg);
+    text-align: center;
+    max-height: 50px;
+    position: relative;
+    top: 5px;
+}
+
+.slide-section .custom-black {
+    max-height: 55px;
+    text-align: center;
+    position: relative;
+    bottom: 25px;
+    z-index: 2;
+}
+
+.slide-inner {
+    background-image: url(./IMG/Group_2/Slide_background.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-top: 50px;
+    margin: 100px 0;
+}
+
+.grunge-left {
+    position: absolute;
+    bottom: -10px;
+    left: -2px;
+}
+
+.grunge-right {
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+}
+
+.slide-control-next {
+    position: absolute;
+    text-decoration: none;
+    color: #9900cc;
+    opacity: 100;
+    bottom: 650px;
+}
+
+.slide-control-next h1 {
+    color: #9900cc;
+    font-weight: bold;
+}
+
+.img-tickets {
+    height: 300px;
+    width: 100%;
+}
+
+.custom-width {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.tickets-bg {
+    background-image: url(./IMG/Group_3/Left_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 0;
+    height: 300px;
+
+}
+
+.pink-letters {
+    color: #9900cc;
+}
+
+.btn-outline-primary {
+    color: #9900cc;
+    border-color: #9900cc;
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    border-color: #9900cc;
+    background-color: #9900cc;
+}
+
+.btn-outline-primary:focus {
+    box-shadow: 0 0 0 .25rem #9900cc;
+}
+
+.tickets-header-bg {
+    background: url(./IMG/Group_3/Stroke.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 50%;
+
+}
+
+.custom-images {
+    height: 60%;
+    width: 49%;
+}
+
+.row-images {
+    position: relative;
+    bottom: 0px;
+    text-align: center;
+}
+
+.img-hide {
+    display: none;
+}
+
+.section-left {
+    background-image: url(./IMG/Group_4/Paper\ Tear.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.section-right {
+    background-image: url(./IMG/Group_4/BackgroundRight.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section5 .section-left .carousel-inner {
+    padding-top: 300px;
+    padding-bottom: 250px;
+    background-image: url(./IMG/Group_4/Stroke.png);
+    background-repeat: no-repeat;
+    background-position: 35px 280px;
+}
+
+.section5 .carousel-control-next-icon {
+    background-image: url(./IMG/Group_4/Arrow_right.png);
+    width: 7em;
+    height: 3em;
+    position: relative;
+    top: 300px;
+
+
+}
+
+.section5 .carousel-control-next {
+    opacity: 100;
+    width: 7em;
+}
+
+.section5 .carousel-control-prev-icon {
+    background-image: url(./IMG/Group_4/Arrow_right.png);
+    width: 7em;
+    height: 3em;
+    position: relative;
+    top: 300px;
+    transform: rotate(180deg);
+
+
+}
+
+.section5 .carousel-control-prev {
+    opacity: 100;
+    width: 7em;
+}
+
+.hero-section6 {
+    background-image: url(./IMG/Group_5/hero.png);
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.section6-bg {
+    background-image: url(./IMG/Group_5/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px 0;
+}
+
+.section6-head {
+    letter-spacing: 0;
+    line-height: 70px;
+}
+
+@media screen and (min-width: 992px) {
+    .arrow-down {
+        left: 100px;
+    }
+
+    .navbar-collapse {
+        position: unset;
+        background-color: unset;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: rgb(0, 0, 0);
+    }
+
+    .img-hide {
+        display: block;
+    }
+
+    .tickets-bg {
+        height: 920px;
+    }
+
+    .row-images {
+        position: absolute;
+        bottom: 100px;
+        text-align: end;
+    }
+
+    .custom-images {
+        height: 30vh;
+        width: 27.5%;
+    }
+
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width:992px) {
+    .arrow-down {
+        bottom: 100px
+    }
+
+    .carousel-control-next {
+        bottom: 550px;
+    }
+
+    .tickets-bg {
+        height: 920px;
+    }
+
+    .img-hide {
+        display: block;
+    }
+
+    .row-images {
+        position: absolute;
+        bottom: 50px;
+        text-align: end;
+    }
+
+    .custom-images {
+        height: 30vh;
+        width: 27.5%;
+    }
+
+    .section5 .carousel-control-next-icon {
+        top: 579px;
+    }
+}
